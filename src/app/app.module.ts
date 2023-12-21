@@ -5,14 +5,20 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
-import { SidebarComponent } from './sidebar/sidebar.component';
+import { ReclamationsListComponent } from './reclamations-list/reclamations-list.component';
+import { EditReclamationComponent } from './edit-reclamation/edit-reclamation.component';
+import { StatCardComponent } from './stat-card/stat-card.component';
+import { ContenuComponent } from './contenu/contenu.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     DashboardComponent,
-    SidebarComponent
+    ReclamationsListComponent,
+    EditReclamationComponent,
+    StatCardComponent,
+    ContenuComponent
   ],
   imports: [
     BrowserModule,
