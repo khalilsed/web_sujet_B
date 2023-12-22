@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class ReclamationsListComponent {
 
+  imgPen="assets/images/pencil.png";
+  iconAttente="assets/images/attente.png";
+  iconTraite="assets/images/traité.png";
+  iconReject="assets/images/reject.png";
+
 }

@@ -1,30 +1,54 @@
 <table class="table">
-  <thead class="thead-dark">
+  <thead class="thead-dark text-center">
     <tr>
       <th scope="col">#</th>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
-      <th scope="col">Handle</th>
+      <th scope="col">Id Client</th>
+      <th scope="col">Prenom</th>
+      <th scope="col">Cin</th>
+      <th scope="col">Reclamation</th>
+      <th scope="col">Status</th>
+      <th scope="col">Action</th>
     </tr>
   </thead>
-  <tbody>
+  <tbody class="text-center">
     <tr>
       <th scope="row">1</th>
       <td>Mark</td>
       <td>Otto</td>
       <td>@mdo</td>
+      <td>Mark</td>
+      <td><img [src]="iconTraite" alt="Edit" /></td>
+      <td>
+        <a [routerLink]="['/edit-reclamation/:id']">
+          <img [src]="imgPen" alt="Edit" />
+        </a>
+      </td>
     </tr>
     <tr>
       <th scope="row">2</th>
-      <td>Jacob</td>
+      <td>00AA86</td>
       <td>Thornton</td>
       <td>@fat</td>
+      <td>Jacob</td>
+      <td><img [src]="iconAttente" alt="Edit" /></td>
+      <td>
+        <a [routerLink]="['/edit-reclamation/:id']">
+          <img [src]="imgPen" alt="Edit" />
+        </a>
+      </td>
     </tr>
     <tr>
       <th scope="row">3</th>
       <td>Larry</td>
       <td>the Bird</td>
       <td>@twitter</td>
+      <td>Larry</td>
+      <td><img [src]="iconReject" alt="Edit" /></td>
+      <td>
+        <a [routerLink]="['/edit-reclamation/:id']">
+          <img [src]="imgPen" alt="Edit" />
+        </a>
+      </td>
     </tr>
   </tbody>
 </table>
